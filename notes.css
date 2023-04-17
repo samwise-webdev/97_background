@@ -1,8 +1,13 @@
+/* Background-color is only one of the options that can be used for the background. Another common use is for background images */
+  
     section {
         width: 80%;
         height: 500px;
         background-color: purple;
         margin: 0 auto;
+/* background-image will use a url that can be to an image in a folder or an image online. Or it can be used to set a gradient */
+        background-image: url(smaller-mossholder-FOY6thQ7qVc-unsplash.jpg);
+        background-size: cover; 
     }
 
     h1 {
