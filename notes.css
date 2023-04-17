@@ -7,7 +7,11 @@
         margin: 0 auto;
 /* background-image will use a url that can be to an image in a folder or an image online. Or it can be used to set a gradient */
         background-image: url(smaller-mossholder-FOY6thQ7qVc-unsplash.jpg);
-        background-size: cover; 
+        background-size: cover;
+/* "Cover" will scale the image as large as possile without stretching the image, but it will allow for cropping as necessary. 
+
+"Contain" will scale the image as large as possible without stretching or cropping the image */
+ 
     }
 
     h1 {
