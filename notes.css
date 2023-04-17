@@ -10,8 +10,15 @@
         background-size: cover;
 /* "Cover" will scale the image as large as possile without stretching the image, but it will allow for cropping as necessary. 
 
-"Contain" will scale the image as large as possible without stretching or cropping the image */
- 
+"Contain" will scale the image as large as possible without stretching or cropping the image 
+
+background-repeat will repeat the image as specified. there are multiple values for this, such as repeat-x, no-repeat, space, etc.
+
+background-position will allow you to specify the initial position of the background. similar to anchor points
+
+background is shorthand for all of these properties as well as others. can set all at once, or just a few; like other properties. 
+UNLIKE other properties, the order doesn't matter for MOST. Background-size may only be included immediately after the <position> separated with the / character: center/80% */
+
     }
 
     h1 {
