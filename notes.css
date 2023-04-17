@@ -17,7 +17,7 @@ background-repeat will repeat the image as specified. there are multiple values 
 background-position will allow you to specify the initial position of the background. similar to anchor points
 
 background is shorthand for all of these properties as well as others. can set all at once, or just a few; like other properties. 
-UNLIKE other properties, the order doesn't matter for MOST. Background-size may only be included immediately after the <position> separated with the / character: center/80% */
+UNLIKE other properties, the order doesn't matter for MOST. Background-size may only be included immediately after the <position> separated with the / character: center/80%   The pair can be anywhere within the shorthand, they just need to be together */
 
     }
 
